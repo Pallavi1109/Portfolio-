@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fs-3" href="#"
+          >Pallavi<span class="text-primary">Chougale</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero bg-primary text-white py-5">
+      <div class="container text-center py-5">
+        <h1 class="display-3 mb-3">Hello, I'm Pallavi Chougale</h1>
+        <p class="lead mb-4">
+          A passionate front-end developer creating beautiful, responsive
+          websites with great user experiences.
+        </p>
+        <a href="#projects" class="btn btn-danger btn-lg">View My Work</a>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-img">
+          <img
+            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5b2426a8-25ba-4fba-815a-3acb15a7c1fd.png"
+            alt="Professional portrait of Jane Doe, a web developer with curly brown hair and glasses, wearing a blue blazer"
+          />
+        </div>
+        <div class="about-text">
+          <p>
+            Hello! I’m Pallavi Krushnat Chougale, a B.Tech student specializing
+            in Computer Science & Engineering with a focus on Data Science. I’m
+            passionate about web development, creating clean and responsive user
+            interfaces, and exploring the power of Python programming to solve
+            real-world problems. I’ve worked on projects like a Library
+            Management System, completed internships that boosted my technical
+            and teamwork skills, and earned certifications in Python and German
+            (A1 level). Alongside my technical journey, I’m committed to
+            improving my soft skills, communication, and confidence, believing
+            they’re just as important as writing good code. My goal is to grow
+            into a skilled full-stack developer, work on meaningful projects,
+            and contribute to building solutions that make people’s lives
+            easier. I’m always excited to take on new challenges, learn emerging
+            technologies, and collaborate with others to turn creative ideas
+            into reality.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+          <p>Semantic markup, accessibility, and modern HTML features.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animations and responsive design principles.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <p>ES6+, DOM manipulation, and interactive web experiences.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <p>Component-based architecture and state management.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Responsive Design</h3>
+          <p>Mobile-first approach and cross-browser compatibility.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-code-branch"></i>
+          <h3>Git</h3>
+          <p>Version control and collaborative workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Featured Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./images/Photograpgy.png" alt="PhotoGraphy Page" />
+          </div>
+          <div class="project-info">
+            <h3>Mini Project</h3>
+            <p>
+              A stylish photography portfolio website developed using HTML, CSS,
+              and JavaScript. Showcases galleries, interactive layouts, and
+              elegant visual design to highlight images. Designed to provide
+              photographers a sleek platform to display their work online
+            </p>
+            <div class="project-links">
+              <a href="#">Live Demo</a>
+              <a href="#">Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./images/spotify.png" alt="Spotify Clone page" />
+          </div>
+          <div class="project-info">
+            <h3>Spotify Clone</h3>
+            <p>
+              A responsive web app that recreates Spotify’s interface using
+              HTML, CSS, and JavaScript. Features sidebar navigation, trending
+              playlists, featured charts, and a sticky music player. Built to
+              showcase modern UI design, flex layouts, and user-friendly
+              interactions
+            </p>
+            <div class="project-links">
+              <a href="#">Live Demo</a>
+              <a href="#">Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./images/language.png" alt="language learning page" />
+          </div>
+          <div class="project-info">
+            <h3>Language Learning Website</h3>
+            <p>
+              A Spotify-inspired web app built with HTML, CSS, and JavaScript.
+              Includes sidebar navigation, trending playlists, featured charts,
+              and a sticky music player. Showcases responsive design and
+              interactive UI similar to the original Spotify platform.
+            </p>
+            <div class="project-links">
+              <a href="#">Live Demo</a>
+              <a href="#">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="container">
+      <h2>Resume</h2>
+      <p>
+        Download my resume to learn more about my professional experience and
+        education.
+      </p>
+      <a href="#" class="btn" download="./doc/resume_pallavi_chougale.pdf">Download Resume</a>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Get In Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p>pallavichougale9405@gmail.com</p>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-phone"></i>
+          <h3>Phone</h3>
+          <p>8983xxxxxx</p>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Location</h3>
+          <p>Pohale / Alate, Kolhapur</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+      </div>
+      <p>© 2025 Pallavi Chougale. All rights reserved.</p>
+      <p><a href="#" style="color: var(--primary)">Click here for demo</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
